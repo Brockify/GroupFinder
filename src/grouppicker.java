@@ -10,7 +10,7 @@ import java.util.Random;
 public class grouppicker {
 
 
-    static String team[] = {"tledford@csumb.edu", "ychino@csumb.edu", "jocortez@csumb.edu", "bensanchez@csumb.edu", "jdiazflores@csumb.ed", "marivera@csumb.edu", "bjaramillo@csumb.edu", "brdamico@csumb.edu"};
+    static String team[] = {"anmartin@csumb.edu", "ychino@csumb.edu", "jocortez@csumb.edu", "bensanchez@csumb.edu", "jdiazflores@csumb.ed", "marivera@csumb.edu", "bjaramillo@csumb.edu", "brdamico@csumb.edu"};
     static ArrayList<String> team1= new ArrayList<String>();
     static ArrayList<String> team2 = new ArrayList<String>();
     static ArrayList<String> team3 = new ArrayList<String>();
