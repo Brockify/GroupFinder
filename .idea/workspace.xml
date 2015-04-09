@@ -28,14 +28,12 @@
       <file leaf-file-name="grouppicker.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/grouppicker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1337386" vertical-offset="106" max-vertical-offset="1140">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.3768997" vertical-offset="416" max-vertical-offset="825">
+              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#463#471#0" expanded="true" />
-                <element signature="e#525#533#0" expanded="true" />
-                <element signature="e#587#595#0" expanded="true" />
-                <element signature="e#652#660#0" expanded="true" />
+                <element signature="e#115#116#0" expanded="true" />
+                <element signature="e#149#150#0" expanded="true" />
+                <element signature="e#1090#1098#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -377,14 +375,12 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/grouppicker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1337386" vertical-offset="106" max-vertical-offset="1140">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.3768997" vertical-offset="416" max-vertical-offset="825">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#463#471#0" expanded="true" />
-            <element signature="e#525#533#0" expanded="true" />
-            <element signature="e#587#595#0" expanded="true" />
-            <element signature="e#652#660#0" expanded="true" />
+            <element signature="e#115#116#0" expanded="true" />
+            <element signature="e#149#150#0" expanded="true" />
+            <element signature="e#1090#1098#0" expanded="true" />
           </folding>
         </state>
       </provider>
