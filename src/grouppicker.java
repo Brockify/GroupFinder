@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.Random;
 
 /**
- * Created by vagrant on blah 2/7/15.
+ * Created by vagrant on 2/7/15.
  */
 public class grouppicker {
 
@@ -22,24 +22,31 @@ public class grouppicker {
         System.out.println("Enter in your email: ");
         name = ob.nextLine();
         makeGroup(name, 2);
+        findGroup(name, 2);
     }
 
-    public static ArrayList<String> makeGroup(String name, int x){
+    public static ArrayList<String> makeGroup(String name, int x) {
         Collections.shuffle(Arrays.asList(team), new Random(x));
-        for(String var: team){
+        for (String var : team) {
             System.out.print(var + " ");
         }
         System.out.println();
-        for(int i = 0; i < team.length; i++){
+        for (int i = 0; i < team.length; i++) {
             if (i >= 0 && i <= 2)
                 team1.add(team[i]);
-            else if (3  <= i && i < 6)
+            else if (3 <= i && i < 6)
                 team2.add(team[i]);
             else
                 team3.add(team[i]);
 
 
         }
+
+        return null;
+    }
+
+    public static ArrayList<String> findGroup(String name, int x)
+    {
         if (team1.contains(name))
         {
             System.out.println(team1);
