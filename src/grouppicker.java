@@ -14,6 +14,7 @@ public class grouppicker {
     static ArrayList<String> team1= new ArrayList<String>();
     static ArrayList<String> team2 = new ArrayList<String>();
     static ArrayList<String> team3 = new ArrayList<String>();
+    static ArrayList<String> subGroup = new ArrayList<String>();
 
 
     public static void main(String[] args) {
@@ -22,10 +23,10 @@ public class grouppicker {
         System.out.println("Enter in your email: ");
         name = ob.nextLine();
         makeGroup(name, 2);
-        findGroup(name, 2);
+        subGroup = findGroup(name, 2);
     }
 
-    public static ArrayList<String> makeGroup(String name, int x) {
+    public static void makeGroup(String name, int x) {
         Collections.shuffle(Arrays.asList(team), new Random(x));
         for (String var : team) {
             System.out.print(var + " ");
@@ -38,11 +39,8 @@ public class grouppicker {
                 team2.add(team[i]);
             else
                 team3.add(team[i]);
-
-
         }
 
-        return null;
     }
 
     public static ArrayList<String> findGroup(String name, int x)
